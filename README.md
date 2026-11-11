@@ -16,6 +16,10 @@ https://github.com/user-attachments/assets/a8bcadc4-e040-4cf2-8fda-dd768b999c18
 > [!NOTE]
 > **DeerFlow 2.0 is a ground-up rewrite.** It shares no code with v1. If you're looking for the original Deep Research framework, it's maintained on the [`1.x` branch](https://github.com/bytedance/deer-flow/tree/main-1.x) — contributions there are still welcome. Active development has moved to 2.0.
 
+## My Notes
+
+[我的笔记](./mynotes/README.md)
+
 ## Official Website
 
 Learn more and see **real demos** on our [**official website**](https://deerflow.tech).
@@ -52,6 +56,7 @@ DeerFlow has newly integrated the intelligent search and crawling toolset indepe
 ## Table of Contents
 
 - [🦌 DeerFlow - 2.0](#-deerflow---20)
+  - [My Notes](#my-notes)
   - [Official Website](#official-website)
   - [Sister Projects](#sister-projects)
   - [Coding Plan from ByteDance Volcengine](#coding-plan-from-bytedance-volcengine)
@@ -81,7 +86,9 @@ DeerFlow has newly integrated the intelligent search and crawling toolset indepe
       - [Personal Access Tokens](#personal-access-tokens)
   - [From Deep Research to Super Agent Harness](#from-deep-research-to-super-agent-harness)
   - [Core Features](#core-features)
+    - [Workspace](#workspace)
     - [Skills \& Tools](#skills--tools)
+      - [Read-only knowledge sources](#read-only-knowledge-sources)
       - [Exporting Custom Skills](#exporting-custom-skills)
       - [Claude Code Integration](#claude-code-integration)
     - [Private Knowledge Retrieval (RAGFlow)](#private-knowledge-retrieval-ragflow)
@@ -103,6 +110,10 @@ DeerFlow has newly integrated the intelligent search and crawling toolset indepe
     - [Archive read semantics](#archive-read-semantics)
     - [Trash](#trash)
   - [Scheduled Tasks](#scheduled-tasks)
+    - [Control proactive IM notifications](#control-proactive-im-notifications)
+    - [Optional group notifications](#optional-group-notifications)
+    - [Lifecycle, safety caps and stop conditions](#lifecycle-safety-caps-and-stop-conditions)
+    - [Create schedules in a conversation](#create-schedules-in-a-conversation)
     - [Preview cron occurrences through the API](#preview-cron-occurrences-through-the-api)
     - [Upgrade Notes](#upgrade-notes)
   - [Terminal Workbench (TUI)](#terminal-workbench-tui)
@@ -114,6 +125,7 @@ DeerFlow has newly integrated the intelligent search and crawling toolset indepe
     - [Deployment Defaults](#deployment-defaults)
     - [Security Recommendations](#security-recommendations)
   - [Contributing](#contributing)
+    - [Script workflows (optional extension)](#script-workflows-optional-extension)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
     - [Key Contributors](#key-contributors)
