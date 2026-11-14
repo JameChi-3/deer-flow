@@ -16,3 +16,4 @@
 
 [设置记忆系统](../backend/docs/MEMORY_SETTINGS_REVIEW.md)
 
+[Mem0 Client Demo](../backend/packages/harness/deerflow/agents/memory/backends/mem0/mem0_demo.py)

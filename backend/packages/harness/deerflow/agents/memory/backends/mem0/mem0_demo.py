@@ -1,3 +1,15 @@
+"""
+HOW_TO_USE:
+
+配置
+cp .env.example .env
+编辑 .env
+
+执行
+cd backend/packages/harness/deerflow/agents/memory/backends/mem0
+python mem0_demo.py
+"""
+
 import json
 import os
 
